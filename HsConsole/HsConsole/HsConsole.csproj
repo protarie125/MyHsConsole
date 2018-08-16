@@ -42,11 +42,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Card\BAS\MurlocRaider_BAS_Minion.cs" />
+    <Compile Include="Game\Enum\HsEnum.cs" />
+    <Compile Include="Game\Interface\IPointable.cs" />
+    <Compile Include="Game\Numeric\OmcInt.cs" />
+    <Compile Include="Game\Object\GameObject.cs" />
+    <Compile Include="Game\Object\HsCard.cs" />
+    <Compile Include="Game\Object\Minion.cs" />
     <Compile Include="MainApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
