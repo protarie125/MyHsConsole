@@ -21,5 +21,23 @@ namespace HsConsole.Game.Enum
             None = 0,
             Murloc,
         }
+
+        public enum ClassType
+        {
+            None = 0,
+            Neutral,
+            Mage,
+        }
+
+        public enum EffectTarget
+        {
+            None = 0,
+            Any = 1,
+            Friendly, FriendlyHero, FriendlyMinion, AllFriendlyMinions, AllOtherFriendlyMinions,
+            Enemy, EnemyHero, EnemyMinion, AllEnemyMinions,
+            Character, AllCharacters,
+            Hero,
+            Minion, AllMinions, AllOtherMinions,
+        }
     }
 }

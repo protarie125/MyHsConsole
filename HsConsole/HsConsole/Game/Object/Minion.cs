@@ -4,7 +4,7 @@ using static HsConsole.Game.Enum.HsEnum;
 
 namespace HsConsole.Game.Object
 {
-    abstract class Minion : HsCard, IPointable
+    abstract class Minion : HsCard, IPointable, ICharacter
     {
         public OmcInt ManaCost { get; set; }
         public OmcInt Attack { get; set; }
